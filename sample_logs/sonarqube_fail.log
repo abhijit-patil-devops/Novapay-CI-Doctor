@@ -1,0 +1,20 @@
+[INFO] Running SonarQube analysis...
+[INFO] Sending analysis to server: http://sonar.novapay.internal
+[INFO] Analysis successfully submitted.
+[INFO] Waiting for Quality Gate result...
+[INFO] Quality Gate Status: FAILED
+-------------------------------------------------------------------------------
+Condition           Actual    Required    Status
+-------------------------------------------------------------------------------
+Coverage on New Code 42.5%     80.0%       FAILED
+Bugs on New Code     3          0          FAILED
+Code Smells on New Code 12     5          FAILED
+-------------------------------------------------------------------------------
+[ERROR] Quality Gate failed. Build is rejected.
+[ERROR] Code coverage 42.5% is below the threshold of 80%.
+[FATAL] SonarQube quality gate failed.
+[ERROR] Build failed with exit code 10.
+---
+Jenkins Build Result: FAILURE
+Stage: code-quality
+Timestamp: 2026-07-01 10:30:00

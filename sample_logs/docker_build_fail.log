@@ -1,0 +1,16 @@
+[INFO] Starting Docker build...
+[INFO] Step 1/5 : FROM alpine:latest
+[INFO] Step 2/5 : RUN apk add --no-cache curl
+[INFO] Step 3/5 : COPY . /app
+[INFO] Step 4/5 : RUN npm install
+[ERROR] npm ERR! code E404
+[ERROR] npm ERR! 404 Not Found: "internal-novapay-auth-lib@1.0.0"
+[ERROR] npm ERR! 404 Not Found: "internal-novapay-auth-lib@1.0.0"
+[ERROR] npm ERR! syscall mkdir
+[ERROR] npm ERR! Path not found: /root/.npm/_cacache/ac0f1...
+[FATAL] Docker build failed at step 4/5.
+[ERROR] Build failed with exit code 1.
+---
+Jenkins Build Result: FAILURE
+Stage: docker-build
+Timestamp: 2026-07-01 10:00:00

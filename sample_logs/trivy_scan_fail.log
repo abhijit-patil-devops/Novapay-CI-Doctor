@@ -1,0 +1,17 @@
+[INFO] Starting Trivy security scan...
+[INFO] Scanning image: novapay-app:latest
+[INFO] Vulnerability report generated.
+-------------------------------------------------------------------------------
+ID       Severity  Package    Version    Fixed Version  Title
+-------------------------------------------------------------------------------
+CVE-2024-1234    CRITICAL   openssl    3.0.1      3.0.12     Remote Code Execution
+CVE-202 la-5678   HIGH       libc-bin    2.31       2.35       Heap buffer overflow
+-------------------------------------------------------------------------------
+[ERROR] Security Gate Failed: Found 1 CRITICAL vulnerability.
+[ERROR] Pipeline policy requires 0 CRITICAL vulnerabilities.
+[FATAL] Trivy scan failed.
+[ERROR] Build failed with exit code 2.
+---
+Jenkins Build Result: FAILURE
+Stage: security-scan
+Timestamp: 2026-07-01 10:15:00
