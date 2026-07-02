@@ -106,4 +106,3 @@ docker run --rm --env-file .env ghcr.io/abhijit-patil-devops/novapay-ci-doctor:l
 *Developed as part of the Novapay-App DevSecOps pipeline enhancement.*
 =======
 # Novapay-CI-Doctor
-
