@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🩺 Novapay CI Doctor
 
 **Novapay CI Doctor** is an AI-powered CI/CD failure analyzer that integrates with Jenkins to automatically diagnose build failures. Instead of spending hours manually combing through massive console logs, this tool extracts only the relevant error context and uses the Claude 3.5 Sonnet model to provide a high-fidelity root cause analysis and a step-by-step fix.
@@ -106,4 +106,4 @@ docker run --rm --env-file .env ghcr.io/abhijit-patil-devops/novapay-ci-doctor:l
 *Developed as part of the Novapay-App DevSecOps pipeline enhancement.*
 =======
 # Novapay-CI-Doctor
->>>>>>> b30c9287ed4b9eb4731ff12ee74f377ef96ebb1b
+
